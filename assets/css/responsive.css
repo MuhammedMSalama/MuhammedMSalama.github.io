@@ -1,0 +1,30 @@
+/* ==============================================================
+   responsive.css
+   Layout breakpoints are handled by Tailwind's responsive utility
+   classes (sm:, md:, lg:) directly in each page fragment under /pages
+   — this file holds the one addition made during the architecture
+   refactor: respecting the visitor's OS-level "reduce motion"
+   preference. Loaded last so its overrides win the cascade.
+
+   It does not alter the default design, layout, or behavior for any
+   visitor — it only disables non-essential motion for people who have
+   explicitly asked their system to minimize it.
+============================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .reveal {
+        transition: none;
+        opacity: 1;
+        transform: none;
+    }
+
+    .animate-float,
+    .animate-float-slow,
+    .animate-pulse-dot {
+        animation: none;
+    }
+}

@@ -1,0 +1,21 @@
+/* ==============================================================
+   style.css
+   Base layer: reset remnants and root element defaults that don't
+   belong to a specific component. This project is styled primarily
+   with Tailwind CSS (Play CDN, configured in index.html); the other
+   stylesheets in this folder hold what Tailwind's utilities can't
+   express — see variables.css, animations.css, components.css and
+   utilities.css. This file is intentionally the smallest of the six.
+============================================================== */
+
+/* Tailwind's Preflight (bundled with the CDN build loaded in index.html)
+   provides the base CSS reset. `scroll-behavior` is set again here to
+   mirror the `scroll-smooth` utility class already applied to <html> in
+   index.html. */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-base);
+}
