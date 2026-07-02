@@ -216,7 +216,6 @@ Every section is built mobile-first with Tailwind's breakpoint system, verified 
 ## 📬 Contact
 
 - **Email:** [devmuhammedsalama@gmail.com](mailto:devmuhammedsalama@gmail.com)
-- **WhatsApp:** [+20 111 157 0436](https://wa.me/201111570436)
 - **GitHub:** [@MuhammedMSalama](https://github.com/MuhammedMSalama)
 - **LinkedIn:** [linkedin.com/in/mohamed2050](https://www.linkedin.com/in/mohamed2050/)
 
